@@ -1,7 +1,5 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  padding: 0;
-  margin: 0;
   background-color: #000000;
   /* background: url(assets/capitan.jpg) no-repeat right top;
   background-size: cover;
@@ -11,9 +9,9 @@ body {
   color: #FFFFFF;
 }
 .main {
-  max-width: 900px;
+  max-inline-size: 1664px;
   margin: auto;
-  position: relative;
+
 }
 
 .video-box {
@@ -69,7 +67,7 @@ svg {
   display: block;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1664px) {
   h3 {
     font-size: 12px;
     margin: 10px;
